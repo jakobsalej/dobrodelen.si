@@ -49,7 +49,7 @@
                 <a class="navbar-brand" href="index.html">Dobrodelen.si</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="about.html">About</a>
@@ -164,10 +164,10 @@
                             <form name="loginform" onsubmit="validateForm()" action="index.html" method="post">
                                 <fieldset>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="E-mail" name="email" type="text">
+                                        <input class="form-control" placeholder="E-mail" name="email" type="text" required>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Geslo" name="password" type="password" value="">
+                                        <input class="form-control" placeholder="Geslo" name="password" type="password" value="" required>
                                     </div>
                                     <div class="checkbox">
                                         <label>
@@ -176,7 +176,7 @@
                                     </div>
                                     <input class="btn btn-lg btn-block" type="submit" value="Prijavi se">
                                     <br>
-                                    <p align="center">Niste še registrirani? <a href="sign-in.html">Registrirajte se tukaj.</a> </p>
+                                    <p align="center">Niste še registrirani? <a href="sign-up.html">Registrirajte se tukaj.</a> </p>
 
                                     <p align="center">ali pa</p>
 
@@ -202,11 +202,13 @@
             var pw = document.loginform.password.value;
             var username = "username";
             var password = "password";
+
+            //le za enega uporabnika za demo
             if ((un == username) && (pw == password)) {
                 return true;
             }
             else {
-                alert ("Login was unsuccessful, please check your username and password");
+                alert ("Prijava ni uspela, prosimo poskusite ponovno.");
                 return false;
             }
         }
