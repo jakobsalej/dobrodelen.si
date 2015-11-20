@@ -158,25 +158,38 @@
             <div class="panel panel-default">
 
                 <div class="panel-heading">
-                    <h3 class="panel-title">Prijava</h3>
+                    <h3 class="panel-title"> <b>Registracija</b> </h3>
                 </div>
                 <div class="panel-body">
-                    <form name="loginform" onsubmit="validateForm()" action="index.html" method="post">
+                    <form name="loginform" action="index.html" method="post">
                         <fieldset>
                             <div class="form-group">
-                                <input class="form-control" placeholder="E-mail" name="email" type="text" required>
+                                <input class="form-control" placeholder="Ime" name="ime" type="text" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" placeholder="Geslo" name="password" type="password" value="" required>
+                                <input class="form-control" placeholder="Priimek" name="priimek" type="text" required>
                             </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email" name="email" type="email" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Uporabnisko ime" name="username" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Vpišite geslo" name="geslo_1" type="password" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Ponovite geslo" name="geslo_2" type="password" required>
+                            </div>
+
                             <div class="checkbox">
                                 <label>
-                                    <input name="remember" type="checkbox" value="remember"> Zapomni si me
+                                    <input name="remember" type="checkbox" value="agree" required> Strinjam se s <a href="pogoji.html">pogoji uporabe</a>
                                 </label>
                             </div>
-                            <input class="btn btn-lg btn-block" type="submit" value="Prijavi se">
+                            <input class="btn btn-lg btn-block" type="submit" value="Registriraj se" onclick="validateForm()">
                             <br>
-                            <p align="center">Niste še registrirani? <a href="sign-in.html">Registrirajte se tukaj.</a> </p>
+                            <p align="center">Že imate uporabniški račun? <a href="log-in.html">Prijavite se tukaj</a> </p>
 
                             <p align="center">ali pa</p>
 
@@ -198,17 +211,20 @@
 
 <script>
     function validateForm() {
-        var un = document.loginform.email.value;
-        var pw = document.loginform.password.value;
-        var username = "username";
-        var password = "password";
+        var ime = document.loginform.ime.value;
+        var priimek = document.loginform.priimek.value;
+        var email = document.loginform.email.value;
+        var upor_ime = document.loginform.username.value;
+        var geslo = document.loginform.geslo_1.value;
+        var geslo2 = document.loginform.geslo_2.value;
+
 
         //le za enega uporabnika za demo
-        if ((un == username) && (pw == password)) {
+        if ((geslo == geslo2)) {
             return true;
         }
         else {
-            alert ("Prijava ni uspela, prosimo poskusite ponovno.");
+            document.loginform.geslo_2.setCustomValidity("Gesli se ne ujemata, poskusite ponovno.");
             return false;
         }
     }

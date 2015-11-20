@@ -161,7 +161,7 @@
                             <h3 class="panel-title">Prijava</h3>
                         </div>
                         <div class="panel-body">
-                            <form name="loginform" onsubmit="validateForm()" action="index.html" method="post">
+                            <form name="loginform" action="index.html" method="post">
                                 <fieldset>
                                     <div class="form-group">
                                         <input class="form-control" placeholder="E-mail" name="email" type="text" required>
@@ -174,7 +174,7 @@
                                             <input name="remember" type="checkbox" value="remember"> Zapomni si me
                                         </label>
                                     </div>
-                                    <input class="btn btn-lg btn-block" type="submit" value="Prijavi se">
+                                    <input class="btn btn-lg btn-block" type="submit" value="Prijavi se" onclick="validateForm()">
                                     <br>
                                     <p align="center">Niste še registrirani? <a href="sign-up.html">Registrirajte se tukaj.</a> </p>
 
@@ -201,14 +201,14 @@
             var un = document.loginform.email.value;
             var pw = document.loginform.password.value;
             var username = "username";
-            var password = "password";
+            var password = "jakob";
 
             //le za enega uporabnika za demo
             if ((un == username) && (pw == password)) {
                 return true;
             }
             else {
-                alert ("Prijava ni uspela, prosimo poskusite ponovno.");
+                document.loginform.password.setCustomValidity("Prijava ni uspela, prosimo poskusite ponovno.");
                 return false;
             }
         }
