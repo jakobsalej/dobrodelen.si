@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+            <state vertical-scroll-proportion="-10.269231">
+              <caret line="236" column="22" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="log-in.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/log-in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65384614">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state vertical-scroll-proportion="-22.23077">
+              <caret line="187" column="40" selection-start-line="182" selection-start-column="36" selection-end-line="187" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -61,18 +61,18 @@
       <file leaf-file-name="sign-up.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.038462">
-              <caret line="221" column="40" selection-start-line="221" selection-start-column="40" selection-end-line="221" selection-end-column="40" />
+            <state vertical-scroll-proportion="-1.1153846">
+              <caret line="186" column="66" selection-start-line="186" selection-start-column="66" selection-end-line="186" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project-main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/project-main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.181818">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.12244898">
+              <caret line="231" column="44" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-added.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap-added.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/css/bootstrap-added.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.019721577">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -123,8 +123,8 @@
       <file leaf-file-name="bootstrap-social.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/css/bootstrap-social.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.23077">
-              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state vertical-scroll-proportion="-18.76923">
+              <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -150,12 +150,12 @@
         <option value="$PROJECT_DIR$/dobrodelnost/new-project.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/dobrodelnost/css/bootstrap-social.css" />
-        <option value="$PROJECT_DIR$/dobrodelnost/index.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/projects.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/sign-up.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/log-in.html" />
-        <option value="$PROJECT_DIR$/dobrodelnost/project-main.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/css/bootstrap-added.css" />
+        <option value="$PROJECT_DIR$/dobrodelnost/index.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/project-main.html" />
       </list>
     </option>
   </component>
@@ -524,34 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.038462">
-          <caret line="221" column="40" selection-start-line="221" selection-start-column="40" selection-end-line="221" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dobrodelnost/log-in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65384614">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dobrodelnost/all-projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.961538">
@@ -579,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dobrodelnost/css/bootstrap-social.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.23077">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dobrodelnost/css/modern-business.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-37.923077">
@@ -595,21 +559,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dobrodelnost/project-main.html">
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/css/bootstrap-added.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.181818">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/css/bootstrap-social.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.76923">
+          <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/log-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="187" column="40" selection-start-line="182" selection-start-column="36" selection-end-line="187" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1153846">
+          <caret line="186" column="66" selection-start-line="186" selection-start-column="66" selection-end-line="186" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.269231">
+          <caret line="236" column="22" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dobrodelnost/css/bootstrap-added.css">
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/project-main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019721577">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="0.12244898">
+          <caret line="231" column="44" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
