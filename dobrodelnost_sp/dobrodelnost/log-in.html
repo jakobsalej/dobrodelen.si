@@ -76,7 +76,7 @@
                                 <a href="portfolio-4-col.html">4 Column Portfolio</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="project-main.html">Single Portfolio Item</a>
                             </li>
                         </ul>
                     </li>
@@ -138,7 +138,7 @@
                                         <a href="portfolio-4-col.html">4 Column Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="portfolio-item.html">Single Portfolio Item</a>
+                                        <a href="project-main.html">Single Portfolio Item</a>
                                     </li>
                                 </ul>
                             </li>
@@ -201,15 +201,15 @@
             var un = document.loginform.email.value;
             var pw = document.loginform.password.value;
             var username = "username";
-            var password = "jakob";
+            var password = "password";
 
             //le za enega uporabnika za demo
-            if ((un == username) && (pw == password)) {
-                return true;
-            }
-            else {
+            if (!((un == username) && (pw == password))) {
                 document.loginform.password.setCustomValidity("Prijava ni uspela, prosimo poskusite ponovno.");
                 return false;
+            } else {
+                document.loginform.password.setCustomValidity('');
+                return true;
             }
         }
     </script>
