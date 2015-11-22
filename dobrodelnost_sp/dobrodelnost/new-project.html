@@ -97,35 +97,111 @@
     </nav>
 
 
-    <div class="container-fluid">
-        <div class="col-md-12">
-            <div class="form-area">
-                <form role="form">
-                    <br style="clear:both">
-                    <h3 style="margin-bottom: 25px; text-align: center;">Nov projekt</h3>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
 
-                    <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-                </form>
+                <!-- Page Heading/Breadcrumbs -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Dodaj nov projekt
+                        </h2>
+
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+
+                    <div class="form-area">
+                        <form name="loginform" action="new-project-success.html" method="post">
+
+                            <fieldset>
+                                <br style="clear:both">
+
+                                <div class="form-group">
+                                    <label>Ime projekta:</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Pomoč za strica Toma" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Napišite, koliko denarja želite zbrati, v € (v primeru, da ne želite postaviti meje, pustite prazno):</label>
+                                    <input type="number" class="form-control" id="money" name="text" placeholder="5000">
+                                </div>
+                                <div class="form-group">
+                                    <label>Kratek povzetek projekta (največ 140 znakov):</label>
+                                    <textarea class="form-control" type="textarea" id="short_story" placeholder="Stricu Tomu se je ob zadnji nevihti podrla streha na koči. Ker je s svojo pokojnino ne more obnoviti, nujno potrebuje našo pomoč." maxlength="140" rows="3" required></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Celotna zgodba (poskusite opisati podrobno in jasno, saj boste tako ljudi lažje prepričali v prispevek):</label>
+                                    <textarea class="form-control" type="textarea" id="long_story" placeholder="Moje ime je Stanka in sem soseda strica Toma. Stricu Tomu se je ob zadnji nevihti podrla streha na koči.
+    Ker je s svojo pokojnino ne more obnoviti, nujno potrebuje našo pomoč. Približuje se zima in z njo vse več padavin, med drugim tudi sneg, streha pa je v takem stanju, da se vse bolj uničuje podstrešje, voda pa pride tudi v spalnico.
+    Ta čas se Tom nahaja v lokalnem domu za ostarele, kjer pa nimajo dovolj prostora za trajno rešitev.
+    Tako ali tako pa Tom obožuje delo na vrtu in hkrati že zelo pogreša svoj dom, zato seveda z upanjem zre v morebitno obnovo strehe.
+
+    Skupaj mu lahko pomagamo! Omogočimu Tomu vrnitev v kočo in Tom Vam bo za večno hvaležen." maxlength="140" rows="17" required></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sel1">Izberite kategorijo (če niste prepričani, izberite "Ostalo"):</label>
+                                    <select class="form-control" id="sel1" required>
+                                        <option>Ostalo</option>
+                                        <option>Urgentno!</option>
+                                        <option>Prostovoljno</option>
+                                        <option>Izobrazba</option>
+                                        <option>Bolezen</option>
+                                        <option>Družina</option>
+                                        <option>Nesreča</option>
+                                    </select>
+                                </div>
+
+                            </fieldset>
+
+                            <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Dodaj projekt</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <br>
+                <br>
+
+                <!-- desna stran -->
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="fa fa-fw fa-compass"></i> Ustvarite projekt. Brezplačno.</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Ne glede na to, ali je ta projekt namenjen Vam ali pa morda kot pomoč vašim znancem, sosedom in prijateljem, objava je brezplačna. Potrudite se čim bolje opisati
+                            dogodke, ki so pripeljali do sedanjega stanja, ter seveda kaj potrebujete, da bi to stanje rešili. Navedeti okviren znesek če potrebujete denar, v nasprotnem primeru
+                            pa polje pustite prazno in jasno navedite, kakšno pomoč najbolj potrebujete.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    </div>
 
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
-</html>
+</html>        
