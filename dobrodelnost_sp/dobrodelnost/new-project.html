@@ -134,11 +134,11 @@
                                 <div class="form-group">
                                     <label>Celotna zgodba (poskusite opisati podrobno in jasno, saj boste tako ljudi lažje prepričali v prispevek):</label>
                                     <textarea class="form-control" type="textarea" id="long_story" placeholder="Moje ime je Stanka in sem soseda strica Toma. Stricu Tomu se je ob zadnji nevihti podrla streha na koči.
-    Ker je s svojo pokojnino ne more obnoviti, nujno potrebuje našo pomoč. Približuje se zima in z njo vse več padavin, med drugim tudi sneg, streha pa je v takem stanju, da se vse bolj uničuje podstrešje, voda pa pride tudi v spalnico.
-    Ta čas se Tom nahaja v lokalnem domu za ostarele, kjer pa nimajo dovolj prostora za trajno rešitev.
-    Tako ali tako pa Tom obožuje delo na vrtu in hkrati že zelo pogreša svoj dom, zato seveda z upanjem zre v morebitno obnovo strehe.
+Ker je s svojo pokojnino ne more obnoviti, nujno potrebuje našo pomoč. Približuje se zima in z njo vse več padavin, med drugim tudi sneg, streha pa je v takem stanju, da se vse bolj uničuje podstrešje, voda pa pride tudi v spalnico.
+Ta čas se Tom nahaja v lokalnem domu za ostarele, kjer pa nimajo dovolj prostora za trajno rešitev.
+Tako ali tako pa Tom obožuje delo na vrtu in hkrati že zelo pogreša svoj dom, zato seveda z upanjem zre v morebitno obnovo strehe.
 
-    Skupaj mu lahko pomagamo! Omogočimu Tomu vrnitev v kočo in Tom Vam bo za večno hvaležen." maxlength="140" rows="17" required></textarea>
+Skupaj mu lahko pomagamo! Omogočimu Tomu vrnitev v kočo in Tom Vam bo za večno hvaležen." maxlength="140" rows="17" required></textarea>
                                 </div>
 
                                 <div class="form-group">
@@ -185,6 +185,25 @@
 
         <hr>
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-8">
+
+                    <label>Ne bi pisali Vaše zgodbe? Poskusite dodati video ali zvočni zapis!</label>
+
+                    <span id="result"></span><br>
+                    <button class="btn btn-primary" id="video">Posnemi video</button>
+                    <button class="btn btn-primary" id="sound">Posnemi zvok</button><br>
+                    <span id="zajem"></span>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -202,6 +221,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Audio/Video zajem -->
+    <script src="js/audiovideo.js"></script>
 
 </body>
 </html>        
