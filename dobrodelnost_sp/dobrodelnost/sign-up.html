@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Prijava</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Login buttons -->
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Dobrodelen.si</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="vsi-projekti.html">Vsi projekti</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="project-main.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sign-up.html" >Registracija</a>
+                    </li>
+                    <li>
+                        <a href="log-in.html" >
+                            <span class="glyphicon glyphicon-log-in"></span>
+                            Prijavi se
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<br>
+<br>
+
+<div class="container">
+    <div class="row vertical-offset-150"><!-- Navigation -->
+
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <h3 class="panel-title"> <b>Registracija</b> </h3>
+                </div>
+                <div class="panel-body">
+                    <form name="loginform" action="index.html" method="post">
+                        <fieldset>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Ime" name="ime" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Priimek" name="priimek" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email" name="email" type="email" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Uporabnisko ime" name="username" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Vpišite geslo" name="geslo_1" type="password" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Ponovite geslo" name="geslo_2" type="password" required>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input name="remember" type="checkbox" value="agree" required> Strinjam se s <a href="pogoji.html">pogoji uporabe</a>
+                                </label>
+                            </div>
+                            <input class="btn btn-lg btn-block" type="submit" value="Registriraj se" onclick="validateForm()">
+                            <br>
+                            <p align="center">Že imate uporabniški račun? <a href="log-in.html">Prijavite se tukaj</a> </p>
+
+                            <p align="center">ali pa</p>
+
+                            <a class="btn btn-block btn-social btn-google">
+                                <span class="fa fa-google"></span> Sign in with Google
+                            </a>
+                            <a class="btn btn-block btn-social btn-facebook">
+                                <span class="fa fa-facebook"></span> Sign in with Facebook
+                            </a>
+
+                        </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function validateForm() {
+        var ime = document.loginform.ime.value;
+        var priimek = document.loginform.priimek.value;
+        var email = document.loginform.email.value;
+        var upor_ime = document.loginform.username.value;
+        var geslo = document.loginform.geslo_1.value;
+        var geslo2 = document.loginform.geslo_2.value;
+
+
+        //le za enega uporabnika za demo
+        if (!(geslo == geslo2)) {
+            document.loginform.geslo_2.setCustomValidity("Gesli se ne ujemata, poskusite ponovno.");
+            return false;
+        } else {
+            document.loginform.geslo_2.setCustomValidity('');
+            return true;
+        }
+    }
+</script>
+</body>
+</html>

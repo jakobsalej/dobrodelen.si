@@ -1,0 +1,39 @@
+
+/*moj gumb */
+.btn-xl {
+    padding: 5px; width:100%;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
+/* Za manjse slikce po visini */
+.post-content {
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center;
+    position: relative;
+    width:40%;
+}
+
+
+.containermy {
+    height: 400px;
+}
+
+/*And then change */
+.containermy .img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+/*To */
+
+.containermy  .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
+
+
