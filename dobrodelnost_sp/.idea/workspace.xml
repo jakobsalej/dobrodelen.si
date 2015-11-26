@@ -21,11 +21,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-26.153847">
               <caret line="91" column="10" selection-start-line="36" selection-start-column="4" selection-end-line="91" selection-end-column="10" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.512761">
+              <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+>>>>>>> gh-pages
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,11 +43,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="new-project-success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/new-project-success.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
+=======
+      <file leaf-file-name="admin-all-news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-all-news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
@@ -48,8 +64,13 @@
       <file leaf-file-name="sign-up.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-27.26923">
               <caret line="157" column="61" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+=======
+            <state vertical-scroll-proportion="0.0">
+              <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
@@ -58,13 +79,19 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/contact.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="4.769231">
               <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+=======
+            <state vertical-scroll-proportion="0.0">
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="admin-new-news.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,45 +100,88 @@
               <folding>
                 <element signature="n#style#0;n#br#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="admin-check-projects.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-check-projects.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+              <folding />
+>>>>>>> gh-pages
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="admin-new-news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="148" column="14" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#br#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> gh-pages
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="project-main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/project-main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+=======
+      <file leaf-file-name="admin-log-in.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-log-in.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="news-main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/news-main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+=======
+      <file leaf-file-name="admin-new-news-success.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news-success.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="admin-log-in.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-log-in.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.81322503">
               <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+=======
+      <file leaf-file-name="project-main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dobrodelnost/project-main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+>>>>>>> gh-pages
               <folding />
             </state>
           </provider>
@@ -151,10 +221,14 @@
         <option value="$PROJECT_DIR$/dobrodelnost/js/audiovideo.js" />
         <option value="$PROJECT_DIR$/dobrodelnost/news.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/js/bootstrap-wysiwyg.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/dobrodelnost/admin-all-news.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/admin-index.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/admin-check-projects.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/admin-new-news-success.html" />
+=======
+        <option value="$PROJECT_DIR$/dobrodelnost/admin-index.html" />
+>>>>>>> gh-pages
         <option value="$PROJECT_DIR$/dobrodelnost/admin-project-main.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/css/bootstrap-added.css" />
         <option value="$PROJECT_DIR$/dobrodelnost/index.html" />
@@ -165,10 +239,20 @@
         <option value="$PROJECT_DIR$/dobrodelnost/new-project-success.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/news-main.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/project-main.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/dobrodelnost/admin-new-news.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/sign-up.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/contact.html" />
         <option value="$PROJECT_DIR$/dobrodelnost/admin-log-in.html" />
+=======
+        <option value="$PROJECT_DIR$/dobrodelnost/sign-up.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/contact.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/admin-all-news.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/admin-check-projects.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/admin-log-in.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/admin-new-news.html" />
+        <option value="$PROJECT_DIR$/dobrodelnost/admin-new-news-success.html" />
+>>>>>>> gh-pages
       </list>
     </option>
   </component>
@@ -208,6 +292,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> gh-pages
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -315,7 +403,10 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> gh-pages
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,6 +553,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> gh-pages
     <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -476,7 +578,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -492,7 +597,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -528,9 +636,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#br#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -562,7 +673,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -570,7 +684,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -578,7 +695,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -586,6 +706,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -593,6 +714,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -619,9 +742,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="118" column="99" selection-start-line="118" selection-start-column="99" selection-end-line="118" selection-end-column="99" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#br#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -648,7 +774,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -663,7 +792,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="208.45284">
           <caret line="4" column="66619" selection-start-line="4" selection-start-column="66613" selection-end-line="4" selection-end-column="66619" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -671,7 +803,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1363.2693">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -686,9 +821,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -704,9 +842,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="882" column="57" selection-start-line="882" selection-start-column="57" selection-end-line="882" selection-end-column="57" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -714,9 +855,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -727,6 +871,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-check-projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6538463">
@@ -751,11 +896,16 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> gh-pages
     <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-project-main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.192308">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -763,7 +913,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
           <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -771,7 +924,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.307692">
           <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -786,6 +942,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-198.76923">
           <caret line="343" column="58" selection-start-line="343" selection-start-column="58" selection-end-line="343" selection-end-column="58" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -793,6 +950,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -807,9 +966,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="201" column="17" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#style#0;n#br#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -817,7 +979,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -825,7 +990,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -833,7 +1001,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> gh-pages
         </state>
       </provider>
     </entry>
@@ -845,6 +1016,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -859,18 +1031,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="10" selection-start-line="37" selection-start-column="4" selection-end-line="79" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/log-in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="10" selection-start-line="37" selection-start-column="4" selection-end-line="79" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.26923">
-          <caret line="157" column="61" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
+>>>>>>> gh-pages
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/sign-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.26923">
+          <caret line="157" column="61" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+=======
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+>>>>>>> gh-pages
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.153847">
@@ -887,17 +1081,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.769231">
           <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-all-news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-check-projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+>>>>>>> gh-pages
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-log-in.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.81322503">
           <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="148" column="14" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#br#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/admin-new-news-success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+>>>>>>> gh-pages
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/dobrodelnost/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.512761">
+          <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> gh-pages
   </component>
 </project>
