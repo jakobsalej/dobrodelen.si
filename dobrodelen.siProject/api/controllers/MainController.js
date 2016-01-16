@@ -12,10 +12,8 @@ module.exports = {
   /**
    * `UserController.create()`
    */
-  create: function (req, res) {
-    return res.json({
-      username: req.param("username")
-    });
+  index: function (req, res) {
+    return res.redirect("http://localhost:1337/dobrodelnost/index.html");
   },
 
 

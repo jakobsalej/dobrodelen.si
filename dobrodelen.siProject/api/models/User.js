@@ -13,6 +13,14 @@ module.exports = {
 
   attributes: {
 
+    firstname: {
+      type: 'string'
+    },
+
+    surname: {
+      type: 'string'
+    },
+
     username: {
       type: 'string'
     },
