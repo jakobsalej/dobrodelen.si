@@ -1,0 +1,176 @@
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Dobrodelen.si</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="new-project.html"> Nov projekt</a>
+                </li>
+                <li>
+                    <a href="all-projects.html">Vsi projekti</a>
+                </li>
+                <li>
+                    <a href="all-news.html">Novice</a>
+                </li>
+                <li>
+                    <a href="contact.html">O nas</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>
+                        Janko Banko<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="my-projects.html">Moji projekti</a>
+                        </li>
+                        <li>
+                            <a href="my-donations.html">Moji prispevki</a>
+                        </li>
+                        <li>
+                            <a href="settings.html">Nastavitve</a>
+                        </li>
+                        <li>
+                            <a href="log-in.html">
+                                <span class="glyphicon glyphicon-log-out"></span>
+                                Odjavi se</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <!-- Page Heading/Breadcrumbs -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Dodaj nov projekt
+                        </h2>
+
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+
+                    <div class="form-area">
+                        <form name="loginform" action="http://localhost:1337/project/create" method="post">
+
+                            <fieldset>
+                                <br style="clear:both">
+
+                                <div class="form-group">
+                                    <label>Ime projekta:</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Pomoč za strica Toma" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Napišite, koliko denarja želite zbrati, v € (v primeru, da ne želite postaviti meje, pustite prazno):</label>
+                                    <input type="number" class="form-control" id="money" name="text" placeholder="5000">
+                                </div>
+                                <div class="form-group">
+                                    <label>Kratek povzetek projekta (največ 140 znakov):</label>
+                                    <textarea class="form-control" id="short_story" placeholder="Stricu Tomu se je ob zadnji nevihti podrla streha na koči. Ker je s svojo pokojnino ne more obnoviti, nujno potrebuje našo pomoč." maxlength="140" rows="3" required></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Celotna zgodba (poskusite opisati podrobno in jasno, saj boste tako ljudi lažje prepričali v prispevek):</label>
+                                    <textarea class="form-control" id="long_story" placeholder="Moje ime je Stanka in sem soseda strica Toma. Stricu Tomu se je ob zadnji nevihti podrla streha na koči.
+Ker je s svojo pokojnino ne more obnoviti, nujno potrebuje našo pomoč. Približuje se zima in z njo vse več padavin, med drugim tudi sneg, streha pa je v takem stanju, da se vse bolj uničuje podstrešje, voda pa pride tudi v spalnico.
+Ta čas se Tom nahaja v lokalnem domu za ostarele, kjer pa nimajo dovolj prostora za trajno rešitev.
+Tako ali tako pa Tom obožuje delo na vrtu in hkrati že zelo pogreša svoj dom, zato seveda z upanjem zre v morebitno obnovo strehe.
+
+Skupaj mu lahko pomagamo! Omogočimu Tomu vrnitev v kočo in Tom Vam bo za večno hvaležen." maxlength="140" rows="17" required></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sel1">Izberite kategorijo (če niste prepričani, izberite "Ostalo"):</label>
+                                    <select class="form-control" id="sel1" required>
+                                        <option>Ostalo</option>
+                                        <option>Urgentno!</option>
+                                        <option>Prostovoljno</option>
+                                        <option>Izobrazba</option>
+                                        <option>Bolezen</option>
+                                        <option>Družina</option>
+                                        <option>Nesreča</option>
+                                    </select>
+                                </div>
+
+                            </fieldset>
+
+                            <button type="submit" id="submit" name="submit" class="btn btn-success pull-right">Dodaj projekt</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <br>
+                <br>
+
+                <!-- desna stran -->
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="fa fa-fw fa-compass"></i> Ustvarite projekt. Brezplačno.</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Ne glede na to, ali je ta projekt namenjen Vam ali pa morda kot pomoč vašim znancem, sosedom in prijateljem, objava je brezplačna. Potrudite se čim bolje opisati
+                            dogodke, ki so pripeljali do sedanjega stanja, ter seveda kaj potrebujete, da bi to stanje rešili. Navedeti okviren znesek če potrebujete denar, v nasprotnem primeru
+                            pa polje pustite prazno in jasno navedite, kakšno pomoč najbolj potrebujete.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-8">
+                    <hr>
+                    <label>Ne bi pisali Vaše zgodbe? Poskusite dodati video ali zvočni zapis!</label>
+
+                    <span id="result"></span><br>
+                    <button class="btn btn-primary" id="video">Posnemi video</button>
+                    <button class="btn btn-primary" id="sound">Posnemi zvok</button><br>
+                    <span id="zajem"></span>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Dobrodelen.si</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>

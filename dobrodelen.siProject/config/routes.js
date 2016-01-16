@@ -38,6 +38,19 @@ module.exports.routes = {
 
   '/index.html': {
     view: 'homepage'
+  },
+
+  '/new-project.html': {
+    view: 'new-project'
+  },
+
+  '/sign-up.html': {
+    view: 'sign-up'
+  },
+
+
+  '/new-project-success.html': {
+    view: 'new-project-success'
   }
 
   /***************************************************************************
