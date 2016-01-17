@@ -20,13 +20,23 @@ module.exports = {
     var username = req.param("username");
     var geslo = req.param("geslo_2");
 
-    User.create({firstname: ime, surname: priimek, email: email, username: username, password: geslo})
-      .exec(function createCB(err, created){
-        console.log('Created user with name ' + created.username);
-        res.redirect('http://localhost:1337/');
-      })
 
+    var re = /\S+@\S+\.\S+/;
+    var test = re.test(email);
+    console.log(test);
 
+    if(ime == null || ime == "" || priimek == null || priimek == "" || !test || username == null || username == "" || geslo == null || geslo == "" ){
+      res.redirect("/sign-up.html");
+    }
+    else {
+
+      User.create({firstname: ime, surname: priimek, email: email, username: username, password: geslo})
+        .exec(function createCB(err, created){
+          sails.log.debug('Created user with name ' + created.username);
+          res.redirect('http://localhost:1337/');
+        })
+
+    }
 
   },
 
@@ -41,7 +51,9 @@ module.exports = {
         res.redirect("/log-in.html");
       }
       else {
+        sails.log.debug('Logged in user with name ' + found.username);
         res.redirect("/index.html");
+
       }
     });
   }

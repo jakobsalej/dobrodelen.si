@@ -56,6 +56,9 @@ module.exports = {
 
     var id = req.param("id");
 
+    //pri vsakem dostopu posodobimo
+
+
     Project.find({where: {id: id}, limit: 1}).exec(function findCB(err, project){
       if(project.length == 0 || err){
         res.serverError(err);
