@@ -31,13 +31,21 @@ module.exports = {
   },
 
 
-  /**
-   * `UserController.delete()`
-   */
-  delete: function (req, res) {
-    return res.json({
-      todo: 'delete() is not implemented yet!'
+  login: function (req, res) {
+
+    var name = req.param("username");
+    var pass = req.param("password");
+
+    User.find({where: {username: name, password: pass}, limit: 1}).exec(function findCB(err, found){
+      if(found.length == 0){
+        res.redirect("/log-in.html");
+      }
+      else {
+        res.redirect("/index.html");
+      }
     });
   }
+
+
 };
 

@@ -33,11 +33,13 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage'
+    controller: 'Project',
+    action: 'index'
   },
 
   '/index.html': {
-    view: 'homepage'
+    controller: 'Project',
+    action: 'index'
   },
 
   '/new-project.html': {
@@ -51,7 +53,24 @@ module.exports.routes = {
 
   '/new-project-success.html': {
     view: 'new-project-success'
-  }
+  },
+
+  '/log-in.html': {
+    view: 'log-in'
+  },
+
+  '/all-news.html': {
+    view: 'all-news'
+  },
+
+  '/news-main.html': {
+    view: 'news-main'
+  },
+
+  '/project-main.html': {
+    view: 'project-main'
+  },
+
 
   /***************************************************************************
   *                                                                          *

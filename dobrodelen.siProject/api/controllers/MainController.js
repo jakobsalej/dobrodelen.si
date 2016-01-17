@@ -9,11 +9,11 @@ module.exports = {
 
 
 
-  /**
-   * `UserController.create()`
-   */
+
   index: function (req, res) {
-    return res.redirect("http://localhost:1337/dobrodelnost/index.html");
+
+
+
   },
 
 

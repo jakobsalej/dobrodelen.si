@@ -18,16 +18,16 @@ module.exports = {
     },
 
     goal: {
-      type: 'double'
+      type: 'float'
     },
 
     collected: {
-      type: 'double'
+      type: 'float'
     },
 
     shortDescription: {
       type: 'string',
-      syze: 24
+      size: 120
     },
 
     description: {

@@ -1,10 +1,4 @@
-<script>
 
-  $(document).ready(function(){
-    console.log("zivjo");
-  });
-
-</script>
 
 
 <!-- Navigation -->
@@ -183,66 +177,49 @@
 
     <!-- Projects Row -->
     <div class="row">
+      <% _.each(mostP1, function (aProject) { %>
       <div class="col-md-4 img-portfolio">
-        <a href="project-main.html">
+
+        <%  var str1 = "project/main?id="; %>
+        <%  var id = aProject.id; %>
+        <%  var url = str1.concat(id.toString()); %>
+
+        <%  console.log(url); %>
+
+        <a href= "<% url %>" >
           <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
         </a>
         <h3>
-          <a href="project-main.html">Projekt Botrstvo</a>
+          <a href="<% url %>"><%= aProject.projectName %></a>
         </h3>
-        <p>Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
+        <p><%= aProject.shortDescription %></p>
       </div>
-      <div class="col-md-4 img-portfolio">
-        <a href="project-main.html">
-          <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
-        </a>
-        <h3>
-          <a href="project-main.html">Projekt Botrstvo</a>
-        </h3>
-        <p>Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
-      </div>
-      <div class="col-md-4 img-portfolio">
-        <a href="project-main.html">
-          <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
-        </a>
-        <h3>
-          <a href="project-main.html">Projekt Botrstvo</a>
-        </h3>
-        <p>Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
-      </div>
+      <% }) %>
     </div>
     <!-- /.row -->
 
     <!-- Projects Row -->
     <div class="row">
+      <% _.each(mostP2, function (aProject) { %>
       <div class="col-md-4 img-portfolio">
-        <a href="project-main.html">
+
+        <%  var str2 = "project/main?id="; %>
+        <%  var id1 = aProject.id; %>
+        <%  var url1 = str2.concat(id1.toString()); %>
+
+        <%  console.log(url1); %>
+
+        <a href= "<% url1 %>" >
           <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
         </a>
         <h3>
-          <a href="project-main.html">Projekt Botrstvo</a>
+          <a href= "<% url1 %>" ><%= aProject.projectName %></a>
         </h3>
-        <p>Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
+        <p><%= aProject.shortDescription %></p>
       </div>
-      <div class="col-md-4 img-portfolio">
-        <a href="project-main.html">
-          <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
-        </a>
-        <h3>
-          <a href="project-main.html">Projekt Botrstvo</a>
-        </h3>
-        <p>Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
-      </div>
-      <div class="col-md-4 img-portfolio">
-        <a href="project-main.html">
-          <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
-        </a>
-        <h3>
-          <a href="project-main.html">Projekt Botrstvo</a>
-        </h3>
-        <p>Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
-      </div>
+      <% }) %>
     </div>
+    <!-- /.row -->
 
 
     <hr>
@@ -260,3 +237,5 @@
   </footer>
 
 </div>
+
+
