@@ -62,7 +62,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Projekt Botrstvo
+                <h1 class="page-header"><%= projekt[0].projectName %>
                 </h1>
 
             </div>
@@ -108,15 +108,7 @@
 
                 <p>
 
-                    Projekt Botrstvo v Sloveniji deluje pod okriljem ZPM Ljubljana Moste-Polje in je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.
-
-                    Namen botrstva je zmanjšanje socialne izključenosti zaradi revščine in omogočanje boljših pogojev za otrokov zdrav razvoj, izobraževanje, odkrivanje in razvoj talentov ter s tem spodbudno preživljanje otroštva. Otrokom želimo omogočiti občutek enakovrednosti v družbi vrstnikov. Preko botrstva jim je vse pogostejše omogočeno tudi osnovno preživetje, šolska prehrana, poleg tega pa tudi vključevanje v vse plačljive šolske in obšolske dejavnosti, organiziran prosti čas in drugo.
-
-                    Otroke in mladostnike za vključitev v projekt predlagajo strokovni delavci in delavke, ter njihovi starši ali skrbniki. Več informacij najdete v rubriki Predlagajte varovanca.
-
-                    Podatki o številu udeleženih botrov in njihovih varovancev, ter podatki o zbranih sredstvih in vseh stroških projekta, so javno objavljeni v obliki poročil.
-
-                    Več informacij o delovanju projekta si lahko preberete v pravilih delovanja projekta Botrstvo v Sloveniji.
+                  <%= projekt[0].description %>
 
                 </p>
 
@@ -127,14 +119,14 @@
             <div class="col-md-4">
 
                 <!-- Kratek opis, cca. 120 znakov -->
-                <p class="lead">Projekt Botrstvo je namenjen izboljšanju kakovosti življenja otrokom in mladostnikom, ki živijo v materialni stiski in potrebujejo finančno pomoč in spodbudo.</p>
+                <p class="lead"><%= projekt[0].shortDescription %></p>
 
 
-                <h1> <b>15.000€ </b> </h1> <p>od </p> 20.000€
+                <h1> <b><%= projekt[0].collected %>€ </b> </h1> <p>od </p> <%= projekt[0].goal %>€
 
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                         aria-valuemin="0" aria-valuemax="100" style="width:75%" >
+                         aria-valuemin="0" aria-valuemax="100" style="width:<%= projekt[0].collected/projekt[0].goal*100 %>%" >
                         <span class="sr-only">75% Complete</span>
                     </div>
                 </div>

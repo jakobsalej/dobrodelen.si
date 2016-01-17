@@ -68,7 +68,13 @@ module.exports.routes = {
   },
 
   '/project-main.html': {
-    view: 'project-main'
+    controller: 'Project',
+    action: 'main'
+  },
+
+  '/all-projects.html': {
+    controller: 'Project',
+    action: 'all'
   },
 
 

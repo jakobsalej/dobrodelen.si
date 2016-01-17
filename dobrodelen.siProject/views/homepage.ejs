@@ -180,17 +180,11 @@
       <% _.each(mostP1, function (aProject) { %>
       <div class="col-md-4 img-portfolio">
 
-        <%  var str1 = "project/main?id="; %>
-        <%  var id = aProject.id; %>
-        <%  var url = str1.concat(id.toString()); %>
-
-        <%  console.log(url); %>
-
-        <a href= "<% url %>" >
+        <a href="project-main.html?id=<%= aProject.id %>" >
           <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
         </a>
         <h3>
-          <a href="<% url %>"><%= aProject.projectName %></a>
+          <a href="project-main.html?id=<%= aProject.id %>"><%= aProject.projectName %></a>
         </h3>
         <p><%= aProject.shortDescription %></p>
       </div>
@@ -203,17 +197,11 @@
       <% _.each(mostP2, function (aProject) { %>
       <div class="col-md-4 img-portfolio">
 
-        <%  var str2 = "project/main?id="; %>
-        <%  var id1 = aProject.id; %>
-        <%  var url1 = str2.concat(id1.toString()); %>
-
-        <%  console.log(url1); %>
-
-        <a href= "<% url1 %>" >
+        <a href="project-main.html?id=<%= aProject.id %>" >
           <img class="img-responsive img-hover" src="http://www.umma.umich.edu/sites/default/files/u2/familyart1_copy_1.png" alt="">
         </a>
         <h3>
-          <a href= "<% url1 %>" ><%= aProject.projectName %></a>
+          <a href="project-main.html?id=<%= aProject.id %>"><%= aProject.projectName %></a>
         </h3>
         <p><%= aProject.shortDescription %></p>
       </div>
