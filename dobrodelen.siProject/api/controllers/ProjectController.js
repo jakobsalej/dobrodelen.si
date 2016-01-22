@@ -18,10 +18,23 @@ module.exports = {
 
     var cr = req.session.user.id;
 
+    //preverimo, ce je uporabnik vpisan
+    var usr;
+    if(req.session.user){
+      usr = req.session.user.username;
+      console.log("Uporabnik shranjen v sejo: " + usr);
+    }
+    else{
+      usr = null;
+    }
+
     Project.create({projectName: name, goal: goal, collected: '0', shortDescription: short, description: long, category: cat, creator: cr})
       .exec(function createCB(err, created){
         sails.log.debug('Created project with name ' + created.projectName);
-        res.redirect("new-project-success.html");
+
+        return res.view("new-project-success", {
+          username: usr
+        });
       })
 
   },
@@ -29,7 +42,19 @@ module.exports = {
 
   newProject: function (req, res) {
 
-    return res.view('new-project');
+    //preverimo, ce je uporabnik vpisan
+    var usr;
+    if(req.session.user){
+      usr = req.session.user.username;
+      console.log("Uporabnik shranjen v sejo: " + usr);
+    }
+    else{
+      usr = null;
+    }
+
+    return res.view('new-project', {
+      username: usr
+    });
 
   },
 
@@ -78,6 +103,16 @@ module.exports = {
 
     //pri vsakem dostopu posodobimo
 
+    //preverimo, ce je uporabnik vpisan
+    var usr;
+    if(req.session.user){
+      usr = req.session.user.username;
+      console.log("Uporabnik shranjen v sejo: " + usr);
+    }
+    else{
+      usr = null;
+    }
+
 
     Project.find({where: {id: id}, limit: 1}).exec(function findCB(err, project){
       if(project.length == 0 || err){
@@ -101,7 +136,8 @@ module.exports = {
             return res.view('project-main', {
               id: id,
               projekt: project,
-              sim: null
+              sim: null,
+              username: usr
             });
 
           }
@@ -111,7 +147,8 @@ module.exports = {
             return res.view('project-main', {
               id: id,
               projekt: project,
-              sim: similar
+              sim: similar,
+              username: usr
             });
           }
         });
@@ -135,6 +172,17 @@ module.exports = {
 
     if(cat == null || cat == ""){
       cat = ""
+    }
+
+
+    //preverimo, ce je uporabnik vpisan
+    var usr;
+    if(req.session.user){
+      usr = req.session.user.username;
+      console.log("Uporabnik shranjen v sejo: " + usr);
+    }
+    else{
+      usr = null;
     }
 
     console.log(cat);
@@ -175,7 +223,8 @@ module.exports = {
           current: st,
           pr1: p1,
           pr2: p2,
-          pr3: p3
+          pr3: p3,
+          username: usr
         });
       }
     });

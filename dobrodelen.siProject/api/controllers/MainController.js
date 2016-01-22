@@ -10,9 +10,21 @@ module.exports = {
 
 
 
-  index: function (req, res) {
+  contact: function (req, res) {
 
+    //preverimo, ce je uporabnik vpisan
+    var usr;
+    if(req.session.user){
+      usr = req.session.user.username;
+      console.log("Uporabnik shranjen v sejo: " + usr);
+    }
+    else{
+      usr = null;
+    }
 
+    return res.view('contact', {
+      username: usr
+    })
 
   },
 

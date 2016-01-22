@@ -91,7 +91,8 @@ module.exports.routes = {
   },
 
   '/contact.html': {
-    view: 'contact'
+    controller: 'Main',
+    action: 'contact'
   },
 
 

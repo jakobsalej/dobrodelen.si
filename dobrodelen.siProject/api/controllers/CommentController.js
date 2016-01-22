@@ -7,9 +7,7 @@
 
 module.exports = {
 
-  /**
-   * `ProjectCommentController.create()`
-   */
+
   add: function (req, res) {
     var text = req.param("besedilo");
     console.log(text);
