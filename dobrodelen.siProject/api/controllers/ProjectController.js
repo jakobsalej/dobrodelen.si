@@ -16,12 +16,20 @@ module.exports = {
     var long = req.param("longDescription");
     var cat = req.param("category");
 
+    var cr = req.session.user.id;
 
-    Project.create({projectName: name, goal: goal, collected: '0', shortDescription: short, description: long, category: cat})
+    Project.create({projectName: name, goal: goal, collected: '0', shortDescription: short, description: long, category: cat, creator: cr})
       .exec(function createCB(err, created){
-        console.log('Created project with name ' + created.projectName);
+        sails.log.debug('Created project with name ' + created.projectName);
         res.redirect("new-project-success.html");
       })
+
+  },
+
+
+  newProject: function (req, res) {
+
+    return res.view('new-project');
 
   },
 
@@ -43,9 +51,21 @@ module.exports = {
         console.log("Druga");
         console.log(druga);
 
+        //preverimo, ce je uporabnik vpisan
+        var usr;
+        if(req.session.user){
+          usr = req.session.user.username;
+          console.log("Uporabnik shranjen v sejo: " + usr);
+        }
+        else{
+          usr = null;
+        }
+
+
         return res.view('homepage', {
           mostP1: prva,
-          mostP2: druga
+          mostP2: druga,
+          username: usr
         });
       }
     });
@@ -65,6 +85,7 @@ module.exports = {
       }
       else {
 
+       req.session.project = id;
        console.log(project[0].projectName);
 
         var title = project[0].projectName;
@@ -78,6 +99,7 @@ module.exports = {
           if(similar.length == 0 || err){
 
             return res.view('project-main', {
+              id: id,
               projekt: project,
               sim: null
             });
@@ -87,6 +109,7 @@ module.exports = {
             console.log(similar);
 
             return res.view('project-main', {
+              id: id,
               projekt: project,
               sim: similar
             });

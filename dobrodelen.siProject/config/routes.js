@@ -43,11 +43,18 @@ module.exports.routes = {
   },
 
   '/new-project.html': {
-    view: 'new-project'
+    controller: 'Project',
+    action: 'newProject'
   },
 
   '/sign-up.html': {
-    view: 'sign-up'
+    controller: 'User',
+    action: 'signupMessage'
+  },
+
+  '/add-comment.html': {
+    controller: 'Comment',
+    action: 'add'
   },
 
 
@@ -56,7 +63,13 @@ module.exports.routes = {
   },
 
   '/log-in.html': {
-    view: 'log-in'
+    controller: 'User',
+    action: 'loginMessage'
+  },
+
+  '/loggin-in.html': {
+    controller: 'User',
+    action: 'login'
   },
 
   '/all-news.html': {
@@ -79,6 +92,12 @@ module.exports.routes = {
 
   '/contact.html': {
     view: 'contact'
+  },
+
+
+  '/logout.html': {
+    controller: 'User',
+    action: 'logout'
   },
 
 

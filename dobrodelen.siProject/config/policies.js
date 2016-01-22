@@ -19,6 +19,12 @@
 
 module.exports.policies = {
 
+  '*': true,
+  'Project': {
+    '*': true,
+    'newProject': 'ProjectPolicy'
+  }
+
   /***************************************************************************
   *                                                                          *
   * Default policy for all controllers and actions (`true` allows public     *
